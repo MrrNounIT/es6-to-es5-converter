@@ -31,7 +31,6 @@ This library extensively uses ES6+ syntax and will report similar errors in lega
 ```
 SyntaxError: Unexpected token '...'
 SyntaxError: Unexpected token '=>'
-SyntaxError: Unexpected token 'const'
 ```
 
 ## Solution Steps
