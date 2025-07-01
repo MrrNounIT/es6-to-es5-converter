@@ -1,3 +1,5 @@
+English | [中文](README_CN.md)
+
 # ES6+ to ES5 Converter
 
 ## Introduction
